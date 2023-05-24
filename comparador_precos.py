@@ -20,3 +20,5 @@ price = soup.find('span', class_ = 'a-price-whole').get_text()
 #aqui imprimi o titulo e o valor
 print('O seu', title , 'esta custando', price)
 
+#Agora é implementar busca de variacoes desse preco
+
